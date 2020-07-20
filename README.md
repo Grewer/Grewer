@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+[![HitCount](http://hits.dwyl.com/grewer@grewercn/Grew'er.svg)](http://hits.dwyl.com/grewer@grewercn/Grew'er)
