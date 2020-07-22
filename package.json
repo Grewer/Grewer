@@ -6,8 +6,8 @@
     "email": "grewer@grewer.cn"
   },
   "dependencies": {
-    "@octokit/rest": "16.36.0",
+    "axios": "^0.19.2",
     "dotenv": "8.2.0",
-    "got": "11.5.1"
+    "wakatime-client": "^2.6.0"
   }
 }
