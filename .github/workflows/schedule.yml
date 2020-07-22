@@ -2,7 +2,7 @@ name: Update NEW README
 
 on:
   push:
-    branch: master
+    branch: main
 
   schedule:
     - cron: "0 16 * * *"
@@ -11,7 +11,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Install
         run: npm ci
       - name: Update README
