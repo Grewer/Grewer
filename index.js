@@ -13,13 +13,11 @@ const root = process.cwd()
 const main = async () => {
     const stats = await wakatime.getMyStats({range: RANGE.LAST_7_DAYS});
     const timeContent = getTimeContent(stats)
-    console.log(timeContent)
 
     const template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
 
-    console.log(template, typeof template)
-
-    const _template = template.replace(/#Time#/, `\`\`\`text \n${timeContent.join('\n')} \n \`\`\``)
+    const _template = template.replace(/#Time#/, `\`\`\`text 
+    \\n ${timeContent.join('\n')} \\n \`\`\``)
 
     fs.writeFileSync(`${root}/README.md`, _template)
 
