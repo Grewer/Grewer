@@ -17,7 +17,8 @@ const main = async () => {
     const template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
 
     const _template = template.replace(/#Time#/, `\`\`\`text 
-    \\n ${timeContent.join('\n')} \\n \`\`\``)
+        \n ${timeContent.join('\n')} \n 
+    \`\`\``)
 
     fs.writeFileSync(`${root}/README.md`, _template)
 
