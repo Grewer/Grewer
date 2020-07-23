@@ -7,7 +7,7 @@
 </td>
 <td valign="top" width="50%">
 #### Recent Blog  
-todo
+#BLOG#
 </td>
 </tr>
 </table>
