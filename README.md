@@ -2,17 +2,19 @@
 <table>
 <tr>
 <td valign="top" width="50%">
+#### Weekly Development Breakdown  
 
 ```text
-Other       8 hrs 55 mins  █████████████░░░░░░░░  62.2%
-TypeScript  4 hrs 43 mins  ██████▉░░░░░░░░░░░░░░  32.9%
-JavaScript  24 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.8%
-JSON        14 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
-Markdown    1 min          ░░░░░░░░░░░░░░░░░░░░░   0.2%
+Other       9 hrs 18 mins  ██████████▌░░░░░░░░░░  50.2%
+TypeScript  7 hrs 27 mins  ████████▍░░░░░░░░░░░░  40.1%
+JavaScript  54 mins        █░░░░░░░░░░░░░░░░░░░░   4.9%
+JSON        34 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.1%
+YAML        8 mins         ▏░░░░░░░░░░░░░░░░░░░░   0.8%
 ```
 
 </td>
 <td valign="top" width="50%">
+#### Recent Blog  
 todo
 </td>
 </tr>
