@@ -2,11 +2,15 @@
 <table>
 <tr>
 <td valign="top" width="50%">
-#### Weekly Development Breakdown  
+
+#### Weekly Development Breakdown
+    
 #Time#
 </td>
 <td valign="top" width="50%">
+
 #### Recent Blog  
+ 
 #BLOG#
 </td>
 </tr>

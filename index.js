@@ -15,7 +15,7 @@ const main = async () => {
 
     console.log(blogJSON.items)
 
-    const blogStr = parseBlog(blogJSON.items)
+    const blogStr = parseBlog(blogJSON.items.slice(0,5))
 
     const stats = await wakatime.getMyStats({range: RANGE.LAST_7_DAYS});
 
@@ -25,7 +25,7 @@ const main = async () => {
 
     template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
 
-    template = template.replace(/#BLOG#/, blogStr)
+    template = template.replace(/#BLOG#/, `\n${blogStr}\n`)
 
     fs.writeFileSync(`${root}/README.md`, template)
 
@@ -39,7 +39,7 @@ const convertTitle = (title) => {
 
 const parseBlog = (blogItem) => {
     return blogItem.reduce((prev, curr) => {
-        prev += `* <a href='${curr.id}' target='_blank'>${convertTitle(curr.title)}</a> - ${timestampToTime(curr.created)} \n`
+        prev += `\* <a href='${curr.id}' target='_blank'>${convertTitle(curr.title)}</a> - ${timestampToTime(curr.created)} \n`
 
         return prev
     }, '')
