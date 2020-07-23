@@ -5,9 +5,13 @@
     "name": "Grewre",
     "email": "grewer@grewer.cn"
   },
+  "scripts": {
+    "run": "node index.js"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "8.2.0",
+    "rss-to-json": "^1.1.1",
     "wakatime-client": "^2.6.0"
   }
 }

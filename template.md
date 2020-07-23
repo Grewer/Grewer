@@ -2,9 +2,11 @@
 <table>
 <tr>
 <td valign="top" width="50%">
+#### Weekly Development Breakdown  
 #Time#
 </td>
 <td valign="top" width="50%">
+#### Recent Blog  
 todo
 </td>
 </tr>
