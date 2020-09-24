@@ -7,11 +7,11 @@
     
 
 ```text
-TypeScript  21 hrs 53 mins ███████████████████░  81.1%
-JSON        1 hr 30 mins   ████░░░░░░░░░░░░░░░░   5.6%
-Other       1 hr 16 mins   ███▓░░░░░░░░░░░░░░░░   4.7%
-HTML        53 mins        ███▒░░░░░░░░░░░░░░░░   3.3%
-JavaScript  44 mins        ███▒░░░░░░░░░░░░░░░░   2.7%
+TypeScript  13 hrs 5 mins  ██████████████▒░░░░░  58.0%
+HTML        2 hrs 57 mins  █████▒░░░░░░░░░░░░░░  13.1%
+JSON        2 hrs 10 mins  ████▓░░░░░░░░░░░░░░░   9.7%
+JavaScript  1 hr 53 mins   ████▓░░░░░░░░░░░░░░░   8.4%
+Other       1 hr 25 mins   ████░░░░░░░░░░░░░░░░   6.3%
 ```
 
 </td>
