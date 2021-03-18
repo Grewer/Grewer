@@ -12,25 +12,26 @@ const root = process.cwd()
 
 const main = async () => {
     try {
+
+        let template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
+
         const blogJSON = await Feed.load('http://feed.cnblogs.com/blog/u/361271/rss/')
 
         console.log(blogJSON.items.slice(0, 5))
 
         const blogStr = parseBlog(blogJSON.items.slice(0, 5))
 
+        template = template.replace(/#BLOG#/, `\n${blogStr}\n`)
 
         const stats = await wakatime.getMyStats({range: RANGE.LAST_7_DAYS});
 
         console.log('stats', stats)
 
-        const timeContent = getTimeContent(stats)
+        if(stats.data.languages){
+            const timeContent = getTimeContent(stats)
 
-
-        let template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
-
-        template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
-
-        template = template.replace(/#BLOG#/, `\n${blogStr}\n`)
+            template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
+        }
 
         fs.writeFileSync(`${root}/README.md`, template)
 
