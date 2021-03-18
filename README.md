@@ -7,11 +7,11 @@
     
 
 ```text
-TypeScript  13 hrs 5 mins  ██████████████▒░░░░░  58.0%
-HTML        2 hrs 57 mins  █████▒░░░░░░░░░░░░░░  13.1%
-JSON        2 hrs 10 mins  ████▓░░░░░░░░░░░░░░░   9.7%
-JavaScript  1 hr 53 mins   ████▓░░░░░░░░░░░░░░░   8.4%
-Other       1 hr 25 mins   ████░░░░░░░░░░░░░░░░   6.3%
+TypeScript  3 hrs 35 mins  ████████████████▓░░░  69.0%
+JSON        38 mins        █████▒░░░░░░░░░░░░░░  12.3%
+Other       16 mins        ████░░░░░░░░░░░░░░░░   5.1%
+XML         12 mins        ███▓░░░░░░░░░░░░░░░░   4.0%
+JavaScript  12 mins        ███▓░░░░░░░░░░░░░░░░   3.9%
 ```
 
 </td>
@@ -20,11 +20,11 @@ Other       1 hr 25 mins   ████░░░░░░░░░░░░░�
 #### Recent Blog  
  
 
+* <a href='http://www.cnblogs.com/Grewer/p/14518357.html' target='_blank'>React-Native  原生 APP 更新 </a> - 2021-03-11 
+* <a href='http://www.cnblogs.com/Grewer/p/14331846.html' target='_blank'>关于 cdn 在项目中的使用 </a> - 2021-01-26 
 * <a href='http://www.cnblogs.com/Grewer/p/14160378.html' target='_blank'>babel 与 ast </a> - 2020-12-19 
 * <a href='http://www.cnblogs.com/Grewer/p/14149955.html' target='_blank'>[翻译] 使用AST提升个人解析游戏 </a> - 2020-12-17 
 * <a href='http://www.cnblogs.com/Grewer/p/14131069.html' target='_blank'>js 中的 EventLoop </a> - 2020-12-13 
-* <a href='http://www.cnblogs.com/Grewer/p/14095066.html' target='_blank'>关于 js 中 this 指向的问题 </a> - 2020-12-6 
-* <a href='http://www.cnblogs.com/Grewer/p/14028158.html' target='_blank'>webpack  loader 实现 </a> - 2020-11-23 
 
 
 </td>
@@ -32,4 +32,4 @@ Other       1 hr 25 mins   ████░░░░░░░░░░░░░�
 </table>
 
 
-![个人统计](https://github-readme-stats.vercel.app/api?username=grewer&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
+[![HitCount](http://hits.dwyl.com/grewer@grewercn/Grew'er.svg)](http://hits.dwyl.com/grewer@grewercn/Grew'er)
