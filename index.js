@@ -27,10 +27,15 @@ const main = async () => {
 
         console.log('stats', stats)
 
-        if(stats.data.languages){
+        if (stats.data.languages) {
             const timeContent = getTimeContent(stats)
 
             template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
+        } else {
+            console.log('10 分钟后再运行')
+            setTimeout(()=>{
+                main()
+            }, 1000 * 60 * 10)
         }
 
         fs.writeFileSync(`${root}/README.md`, template)
