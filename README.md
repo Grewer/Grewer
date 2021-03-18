@@ -31,4 +31,5 @@ JavaScript  12 mins        ███▓░░░░░░░░░░░░░�
 </tr>
 </table>
 
-![个人统计](https://github-readme-stats.vercel.app/api?username=grewer&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
+
+[![HitCount](http://hits.dwyl.com/grewer@grewercn/Grew'er.svg)](http://hits.dwyl.com/grewer@grewercn/Grew'er)
