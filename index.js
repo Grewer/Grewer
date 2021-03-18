@@ -11,23 +11,32 @@ const wakatime = new WakaTimeClient(wakatimeApiKey);
 const root = process.cwd()
 
 const main = async () => {
-    const blogJSON = await Feed.load('http://feed.cnblogs.com/blog/u/361271/rss/')
+    try {
+        const blogJSON = await Feed.load('http://feed.cnblogs.com/blog/u/361271/rss/')
 
-    console.log(blogJSON.items)
+        console.log(blogJSON.items.slice(0, 5))
 
-    const blogStr = parseBlog(blogJSON.items.slice(0,5))
+        const blogStr = parseBlog(blogJSON.items.slice(0, 5))
 
-    const stats = await wakatime.getMyStats({range: RANGE.LAST_7_DAYS});
 
-    const timeContent = getTimeContent(stats)
+        const stats = await wakatime.getMyStats({range: RANGE.LAST_7_DAYS});
 
-    let template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
+        console.log('stats', stats)
 
-    template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
+        const timeContent = getTimeContent(stats)
 
-    template = template.replace(/#BLOG#/, `\n${blogStr}\n`)
 
-    fs.writeFileSync(`${root}/README.md`, template)
+        let template = fs.readFileSync(`${root}/template.md`, {encoding: 'utf-8'})
+
+        template = template.replace(/#Time#/, `\n\`\`\`text\n${timeContent.join('\n')}\n\`\`\`\n`)
+
+        template = template.replace(/#BLOG#/, `\n${blogStr}\n`)
+
+        fs.writeFileSync(`${root}/README.md`, template)
+
+    } catch (e) {
+        console.log('error', e)
+    }
 
 }
 
