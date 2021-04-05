@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Install
-        run: npm ci
       - name: Update README
         run: node ./index.js
         env:
