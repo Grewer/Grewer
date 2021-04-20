@@ -141,7 +141,7 @@ function unicodeProgressBar(p, style = 7, min_size = 20, max_size = 20) {
             min_delta = d;
             m = bar_style[middle];
             if (full === i) m = "";
-            r = full_symbol.repeat(full) + m + bar_style[0].repeat(i - full - 1);
+            r = full_symbol.repeat(full || 0) + m + bar_style[0].repeat(i - full - 1);
         }
     }
     return r;
