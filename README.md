@@ -4,15 +4,8 @@
 <td valign="top" width="50%">
 
 #### Weekly Development Breakdown
-    
 
-```text
-TypeScript  10 hrs 51 mins █████████████▒░░░░░░  52.7%
-Markdown    4 hrs 47 mins  ███████▒░░░░░░░░░░░░  23.3%
-JSON        2 hrs 27 mins  █████▒░░░░░░░░░░░░░░  11.9%
-JavaScript  1 hr 31 mins   ████▒░░░░░░░░░░░░░░░   7.4%
-Other       24 mins        ███▒░░░░░░░░░░░░░░░░   1.9%
-```
+![时间统计](https://github-readme-stats.vercel.app/api/wakatime?username=Grewer)
 
 </td>
 <td valign="top" width="50%">
@@ -29,10 +22,28 @@ Other       24 mins        ███▒░░░░░░░░░░░░░�
 
 </td>
 </tr>
-</table>
+<tr>
 
+<td  valign="top" width="50%">
+
+#### gitHub statistics
 
 ![个人统计](https://github-readme-stats.vercel.app/api?username=grewer&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
 
+</td>
+
+<td  valign="top" width="50%">
+
+#### gitHub used lang
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=grewer&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+</td>
+
+</tr>
+</table>
+
+
+
+
+
