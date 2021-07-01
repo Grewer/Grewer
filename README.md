@@ -7,11 +7,11 @@
     
 
 ```text
-Markdown    6 hrs 42 mins  ██████████▓░░░░░░░░░  38.8%
-JSON        3 hrs 6 mins   ██████▒░░░░░░░░░░░░░  18.0%
-Groovy      2 hrs 51 mins  ██████░░░░░░░░░░░░░░  16.6%
-TypeScript  2 hrs 1 min    █████▒░░░░░░░░░░░░░░  11.7%
-JavaScript  1 hr 56 mins   █████░░░░░░░░░░░░░░░  11.2%
+TypeScript  10 hrs 51 mins █████████████▒░░░░░░  52.7%
+Markdown    4 hrs 47 mins  ███████▒░░░░░░░░░░░░  23.3%
+JSON        2 hrs 27 mins  █████▒░░░░░░░░░░░░░░  11.9%
+JavaScript  1 hr 31 mins   ████▒░░░░░░░░░░░░░░░   7.4%
+Other       24 mins        ███▒░░░░░░░░░░░░░░░░   1.9%
 ```
 
 </td>
@@ -33,3 +33,6 @@ JavaScript  1 hr 56 mins   █████░░░░░░░░░░░░�
 
 
 ![个人统计](https://github-readme-stats.vercel.app/api?username=grewer&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=grewer&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
