@@ -11,6 +11,6 @@
   "dependencies": {
     "axios": "^0.21.2",
     "dotenv": "8.2.0",
-    "rss-to-json": "^1.1.1"
+    "rss-to-json": "^1.1.3"
   }
 }
