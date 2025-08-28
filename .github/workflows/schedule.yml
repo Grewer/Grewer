@@ -2,7 +2,8 @@ name: Update NEW README
 
 on:
   push:
-    branch: main
+    branches:
+      - main
 
   schedule:
     - cron: "0 17 * * 1,4"
